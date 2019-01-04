@@ -184,6 +184,6 @@ except OSError:
 else:
     Logger.info('KivyMD library installation completed!')
     Logger.info('Installing the Pillow library ...')
-    os.system('sudo pip install pillow')
-    os.system('sudo pip3 install pillow')
+    os.system('sudo python -m pip install pillow')
+    os.system('sudo python3 -m pip install pillow')
     Logger.info('Project {} successfully created!'.format(NAME_PROJECT))
